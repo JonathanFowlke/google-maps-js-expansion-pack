@@ -1,0 +1,24 @@
+{
+  "name": "@mapscoder/google-math",
+  "version": "0.0.1",
+  "description": "Math helper functions for Google Maps",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/math"
+  },
+  "keywords": [
+    "Maps Coder",
+    "Google Maps",
+    "Math",
+    "Geometry"
+  ],
+  "author": "Jonathan Fowlke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/issues"
+  },
+  "homepage": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/math#readme"
+}

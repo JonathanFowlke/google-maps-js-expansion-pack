@@ -1,4 +1,4 @@
-"use strict";
+import Math from "@mapscoder/google-math";
 
 class PolygonsMask {
 
@@ -35,12 +35,18 @@ class PolygonsMask {
         //TODO: allow for single polygon as input as well as array of polygons
         polygons.forEach(function (polygon) {
             const polygonPaths = polygon.getPaths();
-            //TODO: detect clockwise direction of main path to see if reversing is necessary
-            polygonPaths.forEach(function (path) {
-                const positions = path.getArray();
-                const inverse = positions.slice().reverse();
-                paths.push(inverse);
-            });
+            if (polygonPaths.length > 1) {
+                const clockwise = Math.isClockwise(polygonPaths[0]);
+                polygonPaths.forEach(function (path) {
+                    const positions = path.getArray();
+                    let clone = positions.slice();
+                    // only reverse positions if necessary
+                    if (clockwise) {
+                        clone = clone.reverse();
+                    }
+                    paths.push(clone);
+                });
+            }
         });
 
         return new google.maps.Polygon({paths: paths});

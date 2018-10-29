@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygon-mask"
+    "url": "git+https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygons-mask"
   },
   "keywords": [
     "Maps Coder",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/issues"
   },
-  "homepage": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygons-mask#readme"
+  "homepage": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygons-mask#readme",
+  "dependencies": {
+    "@mapscoder/google-math": "^0.0.1"
+  }
 }
