@@ -1,0 +1,30 @@
+{
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "**/package-lock.json",
+        "**/jest.config.js",
+        "**/storybook-static/**",
+        "**/.storybook/**",
+        "*.md",
+        "**/stories/**",
+        "**/tests/**"
+      ]
+    },
+    "diff": {
+      "ignoreChanges": [
+        "**/package-lock.json",
+        "**/jest.config.js",
+        "**/storybook-static/**",
+        "**/.storybook/**",
+        "*.md",
+        "**/stories/**",
+        "**/tests/**"
+      ]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

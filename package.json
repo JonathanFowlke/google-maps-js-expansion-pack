@@ -1,0 +1,25 @@
+{
+  "name": "@mapscoder/google-maps-js-expansion-pack",
+  "version": "0.0.1",
+  "description": "Google Maps JS Expansion Pack",
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanFowlke/google-maps-js-expansion-pack.git"
+  },
+  "keywords": [
+    "Maps Coder",
+    "Google Maps"
+  ],
+  "author": "Jonathan Fowlke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/issues"
+  },
+  "homepage": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack#readme",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}

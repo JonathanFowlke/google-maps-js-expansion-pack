@@ -1,0 +1,23 @@
+{
+  "name": "@mapscoder/google-polygons-mask",
+  "version": "0.0.1",
+  "description": "Masks out everything excepts the Google Maps JS Polygons",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygon-mask"
+  },
+  "keywords": [
+    "Maps Coder",
+    "Google Maps",
+    "Polygon"
+  ],
+  "author": "Jonathan Fowlke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/issues"
+  },
+  "homepage": "https://github.com/JonathanFowlke/google-maps-js-expansion-pack/tree/master/packages/polygons-mask#readme"
+}
